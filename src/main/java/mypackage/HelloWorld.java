@@ -1,4 +1,6 @@
-package mypackage;/*
+package mypackage;
+import static mypackage.MyClass.*;
+/*
  * Copyright 2016 Yusuke Yamamoto
  *
  * Licensed under the Apache License,Version2.0(the"License");
@@ -16,6 +18,6 @@ package mypackage;/*
 
 public class HelloWorld {
     public static void main(String... args) {
-        System.out.println("Hello world!");
+        helloWorld();
     }
 }
