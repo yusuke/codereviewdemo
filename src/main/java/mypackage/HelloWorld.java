@@ -1,4 +1,6 @@
-package mypackage;/*
+package mypackage;
+import static mypackage.MyClass.*;
+/*
  * Copyright 2016 Yusuke Yamamoto
  *
  * Licensed under the Apache License,Version2.0(the"License");
